@@ -8,7 +8,6 @@ const BlogContent = styled.div`
   margin: auto;
   max-width: ${p => p.maxWidth};
   padding: ${p => p.padding};
-  background: #999999;
   color: #333333;
   font-family: sans-serif;
 `;
