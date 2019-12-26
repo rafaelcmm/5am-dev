@@ -10,6 +10,7 @@ const BlogContent = styled.div`
   padding: ${p => p.padding};
   background: #999999;
   color: #333333;
+  font-family: sans-serif;
 `;
 
 const Layout = ({ title, children }) => (
@@ -23,7 +24,7 @@ const Layout = ({ title, children }) => (
     >
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()}, Made by me, built with
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </footer>
