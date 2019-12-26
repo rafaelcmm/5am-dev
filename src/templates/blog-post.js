@@ -39,6 +39,7 @@ class BlogPostTemplate extends React.Component {
               {post.frontmatter.date}
             </p>
           </header>
+          <section dangerouslySetInnerHTML={{ __html: post.html }} />
           <Share
             socialConfig={{
               config: {
@@ -48,7 +49,6 @@ class BlogPostTemplate extends React.Component {
             }}
             tags={post.frontmatter.tags}
           />
-          <section dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr
             style={{
               marginBottom: rhythm(1),
