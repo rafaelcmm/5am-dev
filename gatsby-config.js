@@ -5,7 +5,7 @@ module.exports = {
     description: `A blog to keep me focused on 5am lifestyle goal.`,
     siteUrl: `https://github.com/rafaelcmm`,
     social: {
-      github: `rafaelcmm`,
+      linkedin: `rafaelcmm`,
     },
   },
   plugins: [
@@ -61,9 +61,9 @@ module.exports = {
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#000000`,
-        theme_color: `#663399`,
+        theme_color: `#000000`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/gatsby-icon.ico`,
       },
     },
     `gatsby-plugin-offline`,

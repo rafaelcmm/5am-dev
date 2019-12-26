@@ -5,10 +5,11 @@ description: "This is the first my first blog post. I'll try to explain a little
 ---
 
 This is my first post on my new blog. This has no money making intents, and it exists just to 
-improve my productive time and share some of my knowledge with others. I will try to keep it updated
+improve my productive time, share some of my knowledge with others and also practice my english skills.
+(Expect some (but not too many) typos). I will try to keep it updated
 every day (at least commercial days), and every day share a little of what I know.
 
-So, I haven't anything planned for this first post, so I will talk a little about how I decided to
+I haven't anything planned for this first post, so I will talk a little about how I decided to
 start this blog and what stack I'm using here.
 
 
@@ -21,7 +22,7 @@ that you don't want to join it. I'm just referring).
 
 #### The 5am club
 
-So, since the beginning of my career as a software engineer I have problems with day productivity. Waking
+Since the beginning of my career as a software engineer I have problems with day productivity. Waking
 up every day by noon, I was disturbing all my wife and daughter routines. I also was having issues with
 daily meetings, always having to wake up hurried and joining my team meetings without any preparation.
 

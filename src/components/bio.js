@@ -18,7 +18,7 @@ const Bio = () => {
         siteMetadata {
           author
           social {
-            github
+            linkedin
           }
         }
       }
@@ -47,12 +47,12 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong>. I will try to keep it updated to share my knowledge and
-        keep me strong on my goal to wake up every day at 5.
+        Written by me, <strong>{author}</strong>. I'm a software engineer and a newbie on 5am club. Hope this blog
+        helps you with something, and helps me to wake up with the sun every day!
         {` `}
-        <a href={`https://github.com/${social.github}`} target="_blank" rel="noopener noreferrer">
-          You should follow me on Github
-        </a>
+        <a href={`https://linkedin.com/in/${social.linkedin}`} target="_blank" rel="noopener noreferrer">
+          You should follow me on Linkedin
+        </a>.
       </p>
     </div>
   )
