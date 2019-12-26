@@ -5,11 +5,11 @@ import styled from "styled-components"
 import "./layout.css"
 
 const BlogContent = styled.div`
-  margin: 80px auto;
+  margin: auto;
   max-width: ${p => p.maxWidth};
   padding: ${p => p.padding};
-  background: #666666;
-  color: white;
+  background: #999999;
+  color: #333333;
 `;
 
 const Layout = ({ title, children }) => (
