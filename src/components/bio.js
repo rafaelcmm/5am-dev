@@ -50,7 +50,7 @@ const Bio = () => {
         Written by <strong>{author}</strong>. I will try to keep it updated to share my knowledge and
         keep strong on my goal to wake up every day at 5.
         {` `}
-        <a href={`https://github.com/${social.github}`} target="_blank">
+        <a href={`https://github.com/${social.github}`} target="_blank" rel="noopener noreferrer">
           You should follow me on Github
         </a>
       </p>
