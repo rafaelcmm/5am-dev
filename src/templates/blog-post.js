@@ -4,13 +4,14 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Share from "../components/share"
 import { rhythm, scale } from "../utils/typography"
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
-    const { previous, next } = this.props.pageContext
+    const { previous, next, slug } = this.props.pageContext
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -38,6 +39,15 @@ class BlogPostTemplate extends React.Component {
               {post.frontmatter.date}
             </p>
           </header>
+          <Share
+            socialConfig={{
+              config: {
+                url: `https://5am-blog.netlify.com${slug}`,
+                title: post.frontmatter.title,
+              },
+            }}
+            tags={post.frontmatter.tags}
+          />
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr
             style={{

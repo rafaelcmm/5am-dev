@@ -1,6 +1,7 @@
 ---
 title: Hello World, It's 5am
 date: "2019-12-26"
+tags: ["Gatsby", "React", "5AM Club"]
 description: "This is the first my first blog post. I'll try to explain a little about why and how I did it. Check it out!"
 ---
 
