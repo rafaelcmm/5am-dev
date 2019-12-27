@@ -55,7 +55,7 @@ And it isn't even close to the hour I was used to wake up yet! (It is now 9:20am
 
 `Try it tomorrow, and share your experience with me!`
 
-![Chinese Salty Egg](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRGvW0N3sa_jn6hDruMNpHZVKDHQEDDTcmNO7Vxvhofy311RwWA)
+![5am club](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRGvW0N3sa_jn6hDruMNpHZVKDHQEDDTcmNO7Vxvhofy311RwWA)
 
 ## How? (here you can see some code)
 
