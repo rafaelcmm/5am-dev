@@ -8,7 +8,7 @@ description: "I will demonstrate here how to use Flutter themes to create a smar
 Today I'll gonna show you how to use Flutter themes to personalize your app and provide to your users a
 great new experience. 
 
-Let's start listing the acknowledgements you must know to follow through this post. I will list here,
+Let's start listing the acquirements you must know to follow through this post. I will list here,
 together with their docs. That way you will have the source to study it later.
 
 1. Dartlang [here](https://dart.dev/)

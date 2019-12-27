@@ -62,7 +62,7 @@ And it isn't even close to the hour I was used to wake up yet! (It is now 9:20am
 So, since I don't want to spend much time here, I choose a simplest stack I could think of to develop
 this blog fast and share my knowledge and opinions. 
 
-To do what I did here, you must know these acknowledgements below. I will list it and point where do
+To do what I did here, you must know these acquirements below. I will list it and point where do
 you need to go to learn about it 
 
 1. React (And by that, HTML, Javascript...) [here](https://pt-br.reactjs.org/)
