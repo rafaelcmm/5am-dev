@@ -71,7 +71,7 @@ you need to go to learn about it
 3. Markdowns [here](https://www.markdownguide.org/)
 
 At this point, I will asume that you have all these skills. My goal here is not to create a tutorial
-blog like `Medium`, so I will try to be quick and objective on how I coded this blog, and any questions
+blog like `Medium`, so I will try to be quick and objective on how I coded this, and any questions
 you can make me on my [Linkedin](https://www.linkedin.com/in/rafaelcmm/). I'm always available.
 
 So, open your terminal, navigate to your workspace and execute the following commands
