@@ -43,7 +43,7 @@ class BlogPostTemplate extends React.Component {
           <Share
             socialConfig={{
               config: {
-                url: `https://5am-blog.netlify.com${slug}`,
+                url: `https://5am-dev.netlify.com${slug}`,
                 title: post.frontmatter.title,
               },
             }}
