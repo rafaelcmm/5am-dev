@@ -122,8 +122,8 @@ a simple list of bytes (that you can retrieve from your flutter image from `Imag
 your image file with `File.readAsBytesSync`), and a Rect (from dart geometry) with the cropping
 coordinates.
 
-First, we use dart packages `path` and `path_provider` to generate an unique path under or temporary
-directory. This will be useful to us to set this file to a place for a short period of time (so, it
+First, we use dart packages `path` and `path_provider` to generate an unique path under our temporary
+directory. This will be useful for us to set this file in a place for a short period of time (it
 will be cleaned if user doesn't download it).
 
 Now we use our image library to get an `Image` object from bytes decoding (**not the flutter's Image**),
@@ -153,7 +153,7 @@ Image copyCrop(Image src, int x, int y, int w, int h) {
 
 > As you can see, here we have an operation with matrix complexity. So depending on the image and it's
 > boundaries, this can be really painful. To not lose frames on your Flutter application, I suggest you
-> perform these operations under `compute`. That way, dart will run the operation under a `Isolate` and
+> perform these operations under `compute`. That way, dart will run the operation under an `Isolate` and
 > return to you asynchronously.
 
 After that, we just need to encode our cropped image as PNG, store it on a new file that we created
@@ -170,7 +170,7 @@ camera package).
 
 Whenever we want to create a widget using phone camera, we need to initialize the Camera Controller and 
 start the image stream by calling `.startImageStream`. This method is a listener to our `CameraPreview`
-widget, and is always providing to the last image on stream wrapped on `CameraImage` object.
+widget, and it is always providing us the last image streamed wrapped on `CameraImage` object.
 
 I will not dive into this part of the code today, just keep in mind that the CameraImage is useful if we need
 to pass the image planes into our machine learning code and, for example, extract faces or texts from it,
@@ -251,7 +251,7 @@ class MyCameraUtils {
 I tried to keep the explanation of this code into the comments, so if you are going to copy/paste this,
 you can check it later to perform any changes you need. 
 
-The trick here is, if the developer quickly looks into this code, it will seems that something like that:
+The trick here is, if the developer quickly looks into this code, it will seem something like that:
 
 > Oh no! Handling images in iOS is so painful and has so much complexity, this will be horrifying to
 > maintain, help me!
@@ -269,7 +269,7 @@ frames on your application. With that you can also display some fancy loading to
 uncomfortable. 
 
 And that's it! Now it's up to you. Study dart image package documentation to check how you can perform
-more solutions that that, and share with the community if you develop something new and useful!
+more solutions like that, and share with the community if you develop something new and useful!
 Hope you have enjoyed it, any suggestions just chat me on my [linkedin](https://www.linkedin.com/in/rafaelcmm/) 
 and I will be glad to answer it.
                                                   
