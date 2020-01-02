@@ -2,8 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `5am /dev`,
     author: `Rafael Carvalho Monteiro`,
-    description: `A blog to keep me focused on 5am lifestyle goal.`,
-    siteUrl: `https://github.com/rafaelcmm`,
+    description: `A blog to keep me focused on 5am lifestyle goal. Created by me Software Engineer called Rafael Carvalho Monteiro, I try here to share
+    my experience as a developer, help the community and keep me focused on my early morning routine`,
+    siteUrl: `https://5am-dev.netlify.com/`,
     social: {
       linkedin: `rafaelcmm`,
     },
