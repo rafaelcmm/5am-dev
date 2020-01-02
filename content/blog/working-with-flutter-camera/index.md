@@ -6,7 +6,7 @@ description: "I will share my experience handling images in flutter/dart and how
 to achieve my goals."
 ---
 
-Today I'll gonna show you how to use some dart packages to manipulate files/images and 
+Today I'll gonna show you how to use some dart packages to manipulate files/images. 
 
 Let's start listing the acquirements you must know to follow through this post. I will list here,
 together with their docs. That way you will have the source to study it later.
