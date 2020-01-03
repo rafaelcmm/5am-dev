@@ -60,7 +60,7 @@ class Foo {
 ```
 
 Here we are defining an object with two `final` properties, `bar` and `bazz`. Since they are final, 
-that means we can change their values after the object is instantiated. We can't do that even on
+that means we can't change their values after the object is instantiated. We can't do that even on
 the constructor, so, if we try to do something like this:
 
 ```dart
@@ -92,11 +92,11 @@ class Foo {
 Foo('bar', 'bazz');
 ```
 
-So, if we need to initialize every final property, why the previous method didn't worked and this worked?
+So, if we need to initialize every final property, why the previous method didn't worked and this works?
 
 When we define constructors like this, dart knows that, in the moment of object instantiation, he should
 get the two `positional parameters` on the instantiation and attribute to it's equivalents on the
-object. That way it's we can protect our properties with final and simplify our constructor.
+object. That way we can protect our properties with final and simplify our constructor.
 
 ## Positional parameters X Named parameters
 
