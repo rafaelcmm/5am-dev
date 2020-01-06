@@ -1,7 +1,7 @@
 ---
 title: Creating your own react hooks
-date: "2020-01-03"
-tags: ["React", "ReactJS", "Javascript", "ES6", "Hooks"]
+date: "2020-01-06"
+tags: ["React", "ReactJS", "Javascript", "ES6", "Hooks", "debounce", "polling"]
 description: "I will talk a little about React Hooks API and how you can use it to create your own
 customized hooks"
 ---
@@ -114,7 +114,7 @@ the component unmount.
 > itself said it is no-op. But even if it isn't, we need to prevent this memory leaks to ocurr to
 > improve our application.
 
-# The `useDebounce` hook
+# The useDebounce hook
 
 > Talk is cheap, show me the code.
 
@@ -151,7 +151,7 @@ If the value changes before it, the `clearTimeout` will be triggered and a new h
 With this simple block of code, we can call `useDebounce` on any place of our React application, and
 we will have a quick and useful debounce feature.
 
-#The `useInterval` hook
+#The useInterval hook
 
 Here I needed to achieve something like a `polling` feature, when we have a callback function and we
 want to run it time from time. 
@@ -184,8 +184,8 @@ store the last reference inside it.
 Inside the second `useEffect`, we are creating a `setInterval`, that will execute the callback in a time,
 and we are cleaning the interval to avoid async errors.
 
-And that's it! Now it's up to you. Study dart object implementation to check how you can perform
-more solutions like that, and share with the community if you develop something new and useful!
+And that's it! Now it's up to you. Study hooks api to create your own custom hooks, and share with
+the community if you develop something new and useful!
 Hope you have enjoyed it, any suggestions just chat me on my [linkedin](https://www.linkedin.com/in/rafaelcmm/) 
 and I will be glad to answer it.
                                                   
