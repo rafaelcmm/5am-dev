@@ -5,8 +5,8 @@ tags: ["Dart", "HTTP", "Rest", "API", "Dart JSON"]
 description: "I will talk here how I used http dart package to make my api calls easier"
 ---
 
-Today I'm gonna show you how I create a simple Api interface handler for my dart application, to
-resolve my API calls more simpler. My goal here is simplify the `http package` interface, to get
+Today I'm gonna show you how I created a simple api interface handler for my dart application, to
+resolve my API calls better. My goal here is simplify the `http package` interface, to get
 more clear code inside my repositories. 
 
 Let's start listing the acquirements you must know to follow through this post. I will list here,
