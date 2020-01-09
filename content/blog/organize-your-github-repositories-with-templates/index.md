@@ -113,3 +113,50 @@ and write a template that will be useful for your team.
 Now, inside our `ISSUE_TEMPLATE` folder, you will write other templates for each case you need. You can
 write templates for bugs, feature requests, analysis, questions, and any other use cases you want to.
 
+> Talk is cheap, show me the code
+
+```markdown
+## Use case
+<!--
+     Please tell us the problem you are running into that led to you wanting
+     a new feature.
+
+     Is your feature request related to a problem? Please give a clear and
+     concise description of what the problem is.
+
+     Describe alternative solutions you've considered.
+-->
+
+## Proposal
+
+<!--
+     Briefly but precisely describe what you would like the app to be able to do.
+     Consider attaching images showing what you are imagining. (Strongly suggested)
+-->
+
+## Business rules
+
+<!--
+     Briefly but precisely describe any logical rules this feature must follow
+     Example: This foo only can be registered if bar is valid
+-->
+
+## Additional information
+
+<!--
+     Add any other informations/screenshots that can be useful to this feature
+-->
+```
+
+It is basely the same structure of a pull request template. The new here is the header section. You
+can add infos like name, title, about, labels and assignees to a `---` block at the top of your
+markdown. That way github will map the name, a description, some labels you attribute automatically
+for each type of issue, some main assignee on your team for bugs, or features, or anything.
+
+And that's it! Now it's up to you. Study markdown language to personalize your templates, and 
+share with the community if you write something new and useful!
+
+Hope you have enjoyed it, any suggestions just chat me on my [linkedin](https://www.linkedin.com/in/rafaelcmm/) 
+and I will be glad to answer it.
+                                                  
+See you tomorrow! (I hope so).
